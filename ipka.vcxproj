@@ -154,6 +154,7 @@
   <ItemGroup>
     <ClInclude Include="getUserInput.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="resolveSubnet.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ipka.cpp" />
@@ -164,6 +165,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="getUserInput.cpp" />
+    <ClCompile Include="resolveSubnet.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
